@@ -1,0 +1,7 @@
+<suite name="TestNg Project">
+<test name="Regression" allow-return-values="true">
+<classes>
+<class name="testNgpro.TestNgclass"/>
+</classes>
+</test>
+</suite>

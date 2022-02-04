@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-02T17:39:14 EST" name="Default suite" finished-at="2022-02-02T17:40:03 EST" duration-ms="49179">
+    <groups>
+    </groups>
+    <test started-at="2022-02-02T17:39:14 EST" name="Default test" finished-at="2022-02-02T17:40:03 EST" duration-ms="49179">
+      <class name="testNgpro.TestNgclass">
+        <test-method is-config="true" signature="driversetup()[pri:0, instance:testNgpro.TestNgclass@70e8f8e]" started-at="2022-02-02T17:39:13 EST" name="driversetup" finished-at="2022-02-02T17:39:14 EST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driversetup -->
+        <test-method is-config="true" signature="initialsetup()[pri:0, instance:testNgpro.TestNgclass@70e8f8e]" started-at="2022-02-02T17:39:14 EST" name="initialsetup" finished-at="2022-02-02T17:39:18 EST" duration-ms="4073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialsetup -->
+        <test-method is-config="true" signature="openurl()[pri:0, instance:testNgpro.TestNgclass@70e8f8e]" started-at="2022-02-02T17:39:18 EST" name="openurl" finished-at="2022-02-02T17:39:20 EST" duration-ms="2057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method signature="signup()[pri:1, instance:testNgpro.TestNgclass@70e8f8e]" started-at="2022-02-02T17:39:20 EST" name="signup" finished-at="2022-02-02T17:39:31 EST" duration-ms="11764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method signature="login()[pri:2, instance:testNgpro.TestNgclass@70e8f8e]" started-at="2022-02-02T17:39:31 EST" name="login" finished-at="2022-02-02T17:39:43 EST" depends-on-methods="testNgpro.TestNgclass.signup" duration-ms="11646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="laptopselect()[pri:3, instance:testNgpro.TestNgclass@70e8f8e]" started-at="2022-02-02T17:39:43 EST" name="laptopselect" finished-at="2022-02-02T17:39:53 EST" depends-on-methods="testNgpro.TestNgclass.login" duration-ms="9529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- laptopselect -->
+        <test-method signature="addCartAlert()[pri:4, instance:testNgpro.TestNgclass@70e8f8e]" started-at="2022-02-02T17:39:53 EST" name="addCartAlert" finished-at="2022-02-02T17:39:56 EST" depends-on-methods="testNgpro.TestNgclass.login" duration-ms="3116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCartAlert -->
+        <test-method signature="cartPage()[pri:5, instance:testNgpro.TestNgclass@70e8f8e]" started-at="2022-02-02T17:39:56 EST" name="cartPage" finished-at="2022-02-02T17:39:59 EST" depends-on-methods="testNgpro.TestNgclass.login" duration-ms="3271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartPage -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testNgpro.TestNgclass@70e8f8e]" started-at="2022-02-02T17:39:59 EST" name="close" finished-at="2022-02-02T17:40:03 EST" duration-ms="3647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testNgpro.TestNgclass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

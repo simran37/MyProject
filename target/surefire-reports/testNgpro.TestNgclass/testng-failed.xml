@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testNgpro.TestNgclass]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="testNgpro.TestNgclass">
+        <methods>
+          <include name="openurl"/>
+          <include name="addCartAlert"/>
+          <include name="login"/>
+          <include name="laptopselect"/>
+          <include name="cartPage"/>
+          <include name="close"/>
+          <include name="initialsetup"/>
+          <include name="signup"/>
+          <include name="driversetup"/>
+        </methods>
+      </class> <!-- testNgpro.TestNgclass -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [testNgpro.TestNgclass] -->
